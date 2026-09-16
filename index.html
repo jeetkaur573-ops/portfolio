@@ -3,179 +3,320 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Senior Full-Stack Mobile Developer | 7+ Years Engineering Expertise</title>
+  <title>Sarvjeet Kaur — Senior Full-Stack Mobile App Developer</title>
   <meta name="description" content="Senior Full-Stack Mobile App Developer with 7+ years experience in Flutter, iOS, Android, Node.js, Web-to-App, BLoC, and Store Launch.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
+  <!-- Minimalist Navigation Bar -->
+  <header class="site-header">
     <div class="nav-container">
-      <a href="#" class="brand-logo">
-        Sarvjeet Kaur
-      </a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Portfolio</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#estimator">Estimate Project</a></li>
-      </ul>
-      <a href="https://www.fiverr.com/s/9d97ded" target="_blank" class="btn-primary">
-        <i class="fa-solid fa-paper-plane"></i> Hire on Fiverr
-      </a>
+      <a href="#" class="brand-logo">Sarvjeet Kaur</a>
+      <nav class="nav-menu">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="https://www.fiverr.com/s/9d97ded" target="_blank" class="btn-pill-dark btn-nav">Hire Me</a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero" id="about">
-    <div class="badge-tag">
-      <i class="fa-solid fa-certificate"></i> 7+ Years Senior Full-Stack Mobile Developer
-    </div>
-    <h1>
-      Building Modern <span class="gradient-text">Full-Stack Mobile</span> Solutions
-    </h1>
-    <p>
-      Senior Full-Stack Mobile Application Developer with <strong>7+ years of software engineering expertise</strong> specializing in cross-platform mobile apps (iOS & Android) and scalable cloud backend systems (Node.js, Firebase, WebSockets, Supabase).
-    </p>
-    <div class="hero-actions">
-      <a href="#projects" class="btn-primary">
-        <i class="fa-solid fa-layer-group"></i> Explore Portfolio Showcase
-      </a>
-      <a href="#estimator" class="btn-secondary">
-        <i class="fa-solid fa-calculator"></i> Estimate Your Project Cost
-      </a>
-    </div>
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      
+      <!-- Left Column: Copy & CTAs -->
+      <div class="hero-content">
+        <!-- 7+ Years Experience on top line -->
+        <div class="hero-badge-wrap">
+          <span class="hero-badge"><i class="fa-solid fa-award"></i> 7+ Years Experience</span>
+        </div>
+        <!-- INDEPENDENT DEVELOPER on next line -->
+        <div class="hero-eyebrow">INDEPENDENT DEVELOPER</div>
+        <h1 class="hero-name">Sarvjeet Kaur</h1>
+        <h2 class="hero-role">Senior Full-Stack Mobile App Developer</h2>
+        <p class="hero-bio">
+          I engineer production-grade mobile applications with clean architecture, fluid 60 FPS gesture physics, and scalable cloud telemetry from first commit to store launch.
+        </p>
+        <div class="hero-actions">
+          <a href="https://www.fiverr.com/s/9d97ded" target="_blank" class="btn-pill-dark">
+            <i class="fa-solid fa-paper-plane" style="margin-right: 6px;"></i> Hire Me
+          </a>
+          <a href="#projects" class="btn-pill-outline">
+            <i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i> View Projects
+          </a>
+        </div>
+      </div>
 
-    <!-- Stats Grid -->
-    <div class="stats-grid glass-panel">
-      <div class="stat-card">
+      <!-- Right Column: Amazing Smartphone Device & Architecture Showcase -->
+      <div class="hero-visual">
+        <div class="device-card-backdrop">
+          <div class="device-frame">
+            <!-- Smartphone Header: Speaker & Dynamic Island -->
+            <div class="device-top-bar">
+              <span class="device-time">9:41</span>
+              <div class="dynamic-island">
+                <span class="island-camera"></span>
+                <span class="island-sensor"></span>
+              </div>
+              <div class="device-status-icons">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i>
+              </div>
+            </div>
+
+            <!-- Screen Viewport -->
+            <div class="device-screen">
+              <!-- Code Editor Window Header -->
+              <div class="code-tab-bar">
+                <div class="code-tab-active">
+                  <i class="fa-solid fa-code" style="color: #9FD8CB; font-size: 0.75rem;"></i>
+                  <span>MobileEngine.ts</span>
+                </div>
+                <div class="code-status-pill">
+                  <span class="pulse-dot"></span> Store Ready
+                </div>
+              </div>
+
+              <!-- High-Impact Code Snippet -->
+              <pre class="code-body"><code><span class="code-comment">// Production Cross-Platform Engine</span>
+<span class="code-keyword">import</span> { <span class="code-prop">Flutter</span>, <span class="code-prop">Capacitor</span> } <span class="code-keyword">from</span> <span class="code-str">'@core'</span>;
+
+<span class="code-keyword">const</span> <span class="code-fn">app</span> = <span class="code-keyword">new</span> <span class="code-prop">MobileArchitecture</span>({
+  <span class="code-attr">platforms</span>: [<span class="code-str">'iOS'</span>, <span class="code-str">'Android'</span>],
+  <span class="code-attr">uiFps</span>: <span class="code-val">60</span>,
+  <span class="code-attr">state</span>: <span class="code-str">'BLoC / Clean Code'</span>,
+  <span class="code-attr">cloudTelemetry</span>: <span class="code-val">true</span>,
+  <span class="code-attr">approvalSLA</span>: <span class="code-str">'100%'</span>
+});
+
+<span class="code-keyword">await</span> <span class="code-fn">app</span>.<span class="code-fn">shipToStore</span>({
+  <span class="code-attr">appStore</span>: <span class="code-val">true</span>,
+  <span class="code-attr">googlePlay</span>: <span class="code-val">true</span>
+});</code></pre>
+
+              <!-- Live Telemetry Widget Inside Device -->
+              <div class="device-telemetry-box">
+                <div class="telemetry-item">
+                  <div class="telemetry-label">Architecture</div>
+                  <div class="telemetry-value">BLoC &bull; Clean Code</div>
+                </div>
+                <div class="telemetry-item">
+                  <div class="telemetry-label">Store SLA</div>
+                  <div class="telemetry-value" style="color: #9FD8CB;">100% Approval</div>
+                </div>
+              </div>
+
+              <!-- Dual Quick Action Widgets -->
+              <div class="device-footer-widgets">
+                <div class="widget-pill widget-light">
+                  <i class="fa-brands fa-apple" style="margin-right: 4px;"></i> App Store
+                </div>
+                <div class="widget-pill widget-dark">
+                  <i class="fa-brands fa-google-play" style="margin-right: 4px; color: #9FD8CB;"></i> Google Play
+                </div>
+              </div>
+            </div>
+
+            <!-- Home Indicator Bar -->
+            <div class="device-home-bar"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Stats / Metrics Strip (Bordered 4-Column Bar) -->
+  <div class="stats-strip">
+    <div class="stats-container">
+      <div class="stat-col">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Apps Delivered</div>
+      </div>
+      <div class="stat-col">
         <div class="stat-num">7+</div>
         <div class="stat-label">Years Experience</div>
       </div>
-      <div class="stat-card">
-        <div class="stat-num">50+</div>
-        <div class="stat-label">Apps Launched</div>
-      </div>
-      <div class="stat-card">
+      <div class="stat-col">
         <div class="stat-num">100%</div>
         <div class="stat-label">Store Approval</div>
       </div>
-      <div class="stat-card">
+      <div class="stat-col">
         <div class="stat-num">99.9%</div>
-        <div class="stat-label">Stability Rating</div>
+        <div class="stat-label">Stability SLA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Projects Section -->
+  <section class="section projects-section" id="projects">
+    <div class="section-container">
+      <div class="section-heading">
+        <span class="eyebrow">SELECTED WORK</span>
+        <h2 class="section-title">Featured Mobile Applications</h2>
+        <p class="section-subtitle">
+          Real-world, store-published iOS &amp; Android platforms engineered with high-FPS gestural physics, low-latency telemetry, and verified metrics.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-pill active" data-filter="all">All Projects</button>
+        <button class="tab-pill" data-filter="social">Social &amp; Dating</button>
+        <button class="tab-pill" data-filter="web-to-app">Web to Native</button>
+        <button class="tab-pill" data-filter="mobility">Mobility &amp; GPS</button>
+        <button class="tab-pill" data-filter="ai-health">AI &amp; Health</button>
+        <button class="tab-pill" data-filter="cybersecurity">VPN &amp; Privacy</button>
+        <button class="tab-pill" data-filter="ecommerce">eCommerce &amp; ERP</button>
+        <button class="tab-pill" data-filter="saas">Enterprise SaaS</button>
+      </div>
+
+      <!-- Projects Grid (Injected via JS) -->
+      <div class="projects-grid" id="projects-container">
+        <!-- Rendered by src/main.js with custom rich app mockups -->
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section class="section" id="projects">
-    <div class="section-title">
-      <h2>Featured Mobile Applications</h2>
-      <p>Explore production-grade iOS & Android applications engineered with clean architecture & cloud backend telemetry.</p>
-    </div>
+  <!-- Services Section: What I Can Build (Warm Sand Background) -->
+  <section class="section services-section bg-sand" id="services">
+    <div class="section-container">
+      <div class="section-heading">
+        <span class="eyebrow">SERVICES</span>
+        <h2 class="section-title">What I Can Build</h2>
+        <p class="section-subtitle">End-to-end mobile engineering capabilities tailored for rapid product launches and high user retention.</p>
+      </div>
 
-    <!-- Category Filters -->
-    <div class="filter-tabs">
-      <button class="tab-btn active" data-filter="all">All Projects</button>
-      <button class="tab-btn" data-filter="social">Social & Dating</button>
-      <button class="tab-btn" data-filter="web-to-app">Web to Native</button>
-      <button class="tab-btn" data-filter="mobility">Mobility & GPS</button>
-      <button class="tab-btn" data-filter="ai-health">AI & Health</button>
-      <button class="tab-btn" data-filter="cybersecurity">VPN & Privacy</button>
-      <button class="tab-btn" data-filter="ecommerce">eCommerce & ERP</button>
-      <button class="tab-btn" data-filter="saas">Enterprise SaaS</button>
-    </div>
-
-    <!-- Projects Grid Container -->
-    <div class="projects-grid" id="projects-container">
-      <!-- Injected dynamically via src/main.js -->
+      <!-- 6 White Service Cards in 2-Column Grid -->
+      <div class="services-grid" id="services-container">
+        <!-- Rendered by src/main.js -->
+      </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="section" id="services">
-    <div class="section-title">
-      <h2>Full-Stack Engineering Services</h2>
-      <p>Complete end-to-end mobile application and backend cloud infrastructure services.</p>
-    </div>
-    <div class="grid-2" id="services-container">
-      <!-- Injected dynamically via src/main.js -->
+  <!-- Toolbox / Technical Skills Section -->
+  <section class="section skills-section" id="skills">
+    <div class="section-container">
+      <div class="section-heading">
+        <span class="eyebrow">TOOLBOX</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Full-stack mobile stack, native hardware bridges, cloud infrastructure, and release pipelines.</p>
+      </div>
+
+      <!-- 4 Sand Skill Cards in 2x2 Grid -->
+      <div class="skills-grid" id="skills-container">
+        <!-- Rendered by src/main.js -->
+      </div>
     </div>
   </section>
 
-  <!-- Technical Skills Matrix -->
-  <section class="section" id="skills">
-    <div class="section-title">
-      <h2>Technical Stack & Architecture</h2>
-      <p>Frontend Mobile SDKs, Reactive State Management, Cloud APIs, and Store Publishing.</p>
-    </div>
-    <div class="grid-2" id="skills-container">
-      <!-- Injected dynamically via src/main.js -->
+  <!-- Start A Conversation / Contact Section (Deep Espresso Background) -->
+  <section class="section contact-section bg-dark" id="contact">
+    <div class="section-container contact-layout">
+      
+      <!-- Left Column: Copy & Inquiries -->
+      <div class="contact-info">
+        <span class="eyebrow eyebrow-light">START A CONVERSATION</span>
+        <h2 class="contact-title">Let's Build Something Reliable</h2>
+        <p class="contact-desc">
+          Whether you are planning a new mobile app, converting a PWA into native binaries, or scaling a cloud backend, I would be glad to discuss your project requirements.
+        </p>
+        <div class="contact-email-wrapper">
+          <a href="https://www.fiverr.com/s/9d97ded" target="_blank" class="contact-email-link">
+            <i class="fa-solid fa-paper-plane" style="margin-right: 8px;"></i> Contact &amp; Hire on Fiverr Profile
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Clean White Form Card -->
+      <div class="contact-form-card">
+        <form id="project-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="client-name">Name</label>
+              <input type="text" id="client-name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-field">
+              <label for="client-email">Email</label>
+              <input type="email" id="client-email" name="email" placeholder="you@company.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="app-type">Project Type</label>
+              <select id="app-type" name="app_category">
+                <option value="" disabled selected>Choose one</option>
+                <option value="custom">Custom Mobile App (Flutter / Native)</option>
+                <option value="web-to-app">Web / PWA to Native iOS &amp; Android App</option>
+                <option value="dating">Social &amp; Dating Matchmaking App</option>
+                <option value="cab-booking">On-Demand Cab Booking &amp; GPS Tracking</option>
+                <option value="ai-health">AI Health &amp; Calorie Tracking App</option>
+                <option value="vpn">High-Speed WireGuard VPN &amp; Privacy</option>
+                <option value="ecommerce">eCommerce &amp; ERP Mobile Platform</option>
+                <option value="saas">Enterprise SaaS Mobile App</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget_range">
+                <option value="" disabled selected>Choose one</option>
+                <option value="basic">$500 – $1,500 (MVP / Prototype / Web Wrap)</option>
+                <option value="standard">$1,500 – $3,000 (Full Dual-App Production)</option>
+                <option value="enterprise">$3,500+ (Enterprise Mobility Suite + Backend)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me a little about what you are building, target platforms, or share a Figma link..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-pill-dark btn-submit">
+            Send Inquiry
+          </button>
+        </form>
+      </div>
+
     </div>
   </section>
 
-  <!-- Interactive Project Estimator Form -->
-  <section class="section" id="estimator">
-    <div class="section-title">
-      <h2>Interactive Project Estimate</h2>
-      <p>Share your mobile app requirements or reference app link for an instant custom quote.</p>
+  <!-- Clean Editorial Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        Sarvjeet Kaur · Senior Full-Stack Mobile App Developer
+      </div>
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-right">
+        &copy; 2026 Sarvjeet Kaur
+      </div>
     </div>
-    <div class="glass-panel form-card">
-      <form id="project-form">
-        <div class="form-group">
-          <label for="client-name"><i class="fa-solid fa-user"></i> Your Name / Company</label>
-          <input type="text" id="client-name" name="name" class="form-control" placeholder="e.g. John Doe" required>
-        </div>
-        <div class="form-group">
-          <label for="app-type"><i class="fa-solid fa-layer-group"></i> Mobile App Category</label>
-          <select id="app-type" name="app_category" class="form-control">
-            <option value="custom">Custom Full-Stack Mobile App (Flutter / Native)</option>
-            <option value="web-to-app">Web / PWA to Native iOS & Android Conversion</option>
-            <option value="dating">Dating & Matchmaking Social App</option>
-            <option value="cab-booking">On-Demand Cab Booking & Ride Hailing App</option>
-            <option value="ai-health">AI Calorie Tracker & Smart Health App</option>
-            <option value="vpn">WireGuard VPN & Privacy Mobile App</option>
-            <option value="ecommerce">eCommerce & ERP Mobile Platform</option>
-            <option value="saas">Enterprise SaaS Mobility App</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="budget"><i class="fa-solid fa-dollar-sign"></i> Estimated Budget Range</label>
-          <select id="budget" name="budget_range" class="form-control">
-            <option value="basic">$300 – $600 (UI Prototype / Basic MVP / Web Wrap)</option>
-            <option value="standard">$1,500 – $2,500 (Full Dual App MVP + APIs)</option>
-            <option value="enterprise">$3,500+ (Full Enterprise 90-Day Platform + Admin)</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message"><i class="fa-solid fa-pen-to-square"></i> Requirement Details / Reference Links</label>
-          <textarea id="message" name="message" class="form-control" rows="4" placeholder="Describe your app concept, Figma links, or website URL..."></textarea>
-        </div>
-        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 0.9rem;">
-          <i class="fa-solid fa-paper-plane"></i> Send Inquiry & Open Custom Quote on Fiverr
-        </button>
-      </form>
-    </div>
-  </section>
+  </footer>
 
-  <!-- Modal Component -->
+  <!-- Case Study Modal Component -->
   <div class="modal-overlay" id="modal-overlay">
-    <div class="glass-panel modal-content" id="modal-content">
-      <button class="close-modal" id="close-modal">&times;</button>
+    <div class="modal-dialog" id="modal-content">
+      <button class="close-modal" id="close-modal" aria-label="Close modal">&times;</button>
       <div id="modal-body"></div>
     </div>
   </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Senior Full-Stack Mobile Developer. All Rights Reserved.</p>
-    <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 0.3rem;">Clean Architecture &bull; Scalable Cloud Engineering &bull; 50+ Apps Shipped</p>
-  </footer>
-
-  <!-- Back to Top -->
+  <!-- Back to Top Button -->
   <button class="back-to-top" id="back-to-top" aria-label="Back to top">
     <i class="fa-solid fa-arrow-up"></i>
   </button>

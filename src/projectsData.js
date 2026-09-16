@@ -284,17 +284,18 @@ export const developerBio = {
   stabilityRating: "99.9%",
   about: `I am a Senior Full-Stack Mobile Application Developer with 7+ years of software engineering expertise specializing in cross-platform mobile solutions (iOS & Android) and scalable backend cloud architectures. I build fluid, high-performance apps with clean state management (BLoC, Provider, Clean Architecture), real-time WebSockets, robust APIs (Node.js, Express, Firebase, Supabase), and secure payment systems (Stripe, RevenueCat). Whether you need a full enterprise app built from scratch, a PWA / web application converted into native iOS and Android apps using Capacitor, or performance refactoring, I deliver reliable, store-ready solutions.`,
   coreServices: [
-    { title: "Full-Stack Mobile App Engineering", desc: "Complete end-to-end mobile development (iOS & Android) + scalable Node.js/Firebase backend APIs.", icon: "fa-mobile-screen" },
-    { title: "Web to Mobile App Conversion", desc: "Transform websites and PWAs into native store-approved mobile apps with Capacitor native hardware bridges.", icon: "fa-globe" },
-    { title: "UI/UX to Pixel-Perfect Code", desc: "Converting Figma and Adobe XD wireframes into fluid 60 FPS responsive interfaces with light/dark themes.", icon: "fa-palette" },
-    { title: "Scalable Architecture & Clean Code", desc: "Robust BLoC, Provider, and Clean Code architectures built for high concurrency and zero memory leaks.", icon: "fa-diagram-project" },
-    { title: "APIs, WebSockets & Cloud Backends", desc: "Sub-second WebSockets, Firebase, Supabase, Node.js REST APIs, Stripe, PayPal, & In-App Purchases.", icon: "fa-server" },
-    { title: "100% Store Publishing & Compliance", desc: "Full Apple App Store & Google Play Console deployment guarantee, provision profiling & guideline compliance.", icon: "fa-circle-check" }
+    { title: "Mobile App Dev", desc: "Native-feeling mobile products for iOS and Android, built to scale.", icon: "fa-mobile-screen" },
+    { title: "PWA Conversion", desc: "Turn an existing web experience into a fast, installable product.", icon: "fa-arrows-rotate" },
+    { title: "UI/UX to Code", desc: "Translate thoughtful interface systems into precise, shareable code.", icon: "fa-bezier-curve" },
+    { title: "Clean Architecture", desc: "Create maintainable foundations that keep teams shipping with confidence.", icon: "fa-cubes" },
+    { title: "APIs & Backend", desc: "Build secure APIs, data models, and services behind polished apps.", icon: "fa-server" },
+    { title: "Store Publishing", desc: "Prepare, validate, and launch products with a calm release process.", icon: "fa-paper-plane" }
   ],
   skills: [
-    { category: "Mobile Frontend", items: ["Flutter SDK", "React Native", "Capacitor Framework", "Swift (iOS)", "Kotlin (Android)", "Dart", "BLoC Pattern", "Provider"] },
-    { category: "Backend & Cloud APIs", items: ["Node.js", "Express.js", "Python FastAPI", "Firebase Suite", "Supabase", "REST APIs", "GraphQL", "WebSockets"] },
-    { category: "Databases & Spatial", items: ["PostgreSQL", "MongoDB", "Firebase Realtime DB", "SQLite / Hive", "Redis", "Geohash Spatial Queries"] },
-    { category: "DevOps & Monetization", items: ["App Store Deploy", "Play Console Launch", "RevenueCat", "Stripe / PayPal", "FCM & APNs Push", "Biometrics", "WireGuard C-Core"] }
+    { category: "Mobile Frontend", items: ["React Native", "Flutter", "Swift", "Kotlin", "Expo", "Capacitor"] },
+    { category: "Backend & Cloud", items: ["Node.js", "TypeScript", "GraphQL", "REST APIs", "AWS", "Firebase"] },
+    { category: "Databases", items: ["PostgreSQL", "Firebase", "MongoDB", "Redis", "SQLite"] },
+    { category: "DevOps & Monetization", items: ["CI/CD", "Fastlane", "Docker", "App Store Connect", "RevenueCat", "Stripe"] }
   ]
 };
+
