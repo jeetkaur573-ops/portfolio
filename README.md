@@ -1,12 +1,17 @@
 # 🚀 Sarvjeet Kaur — Senior Mobile & Web Application Developer Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-seven-mauve-cohrhqnn1p.vercel.app/)
 [![Fiverr Profile](https://img.shields.io/badge/Fiverr-Hire%20Me-1dbf73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/s/9d97ded)
 [![Vite](https://img.shields.io/badge/Built%20With-Vite%205-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/Language-ES6%2B%20JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Formspree](https://img.shields.io/badge/Form%20Backend-Formspree-FF5A5F?style=for-the-badge&logo=mailgun&logoColor=white)](https://formspree.io/)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)](https://www.fiverr.com/s/9d97ded)
+[![Status](https://img.shields.io/badge/Status-Live%20on%20Vercel-success?style=for-the-badge)](https://portfolio-seven-mauve-cohrhqnn1p.vercel.app/)
 
 A high-performance, modern, and interactive portfolio web application showcasing production-grade cross-platform mobile solutions, case studies, and engineering capabilities by **Sarvjeet Kaur**.
+
+---
+
+## 🌐 Live Website: [https://portfolio-seven-mauve-cohrhqnn1p.vercel.app/](https://portfolio-seven-mauve-cohrhqnn1p.vercel.app/)
 
 ---
 
